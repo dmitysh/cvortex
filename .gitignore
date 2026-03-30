@@ -1,0 +1,8 @@
+.idea
+Makefile
+
+.env
+*.env
+!*.env.example
+
+*CLAUDE.md

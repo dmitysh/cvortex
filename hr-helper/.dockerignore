@@ -1,0 +1,44 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+
+# Environment
+.env
+prod.env
+*.env
+
+# Build artifacts
+hr-helper
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go
+go.work
+go.work.sum
+
+# Test & coverage
+*.test
+*.out
+coverage.txt
+
+# Local configs/secrets
+.postgresql
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+!README.md
